@@ -32,7 +32,7 @@ def powers_of_2(amount):
 # loop until the user quits
 keep_playing = True
 while keep_playing:
-    amount = get_positive_integer_input("How many powers of two would you like?")
+    amount = get_positive_integer_input("How many powers of two would you like? e")
     if amount is not None:
         print(powers_of_2(amount))
         if input("again?").lower() not in ["y", "yes"]:
